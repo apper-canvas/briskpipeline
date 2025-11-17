@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "title": "TechCorp Enterprise License",
+    "contactId": 1,
+    "value": 125000,
+    "stage": "Negotiation",
+    "probability": 75,
+    "expectedCloseDate": "2024-03-15",
+    "notes": "Final pricing negotiations. Legal review in progress.",
+    "createdAt": "2024-01-15T09:30:00Z",
+    "updatedAt": "2024-02-10T14:20:00Z"
+  },
+  {
+    "Id": 2,
+    "title": "InnovateTech API Integration",
+    "contactId": 2,
+    "value": 45000,
+    "stage": "Proposal",
+    "probability": 60,
+    "expectedCloseDate": "2024-02-28",
+    "notes": "Technical evaluation completed. Waiting for budget approval.",
+    "createdAt": "2024-01-16T11:45:00Z",
+    "updatedAt": "2024-02-08T10:15:00Z"
+  },
+  {
+    "Id": 3,
+    "title": "MarketingPro Campaign Platform",
+    "contactId": 3,
+    "value": 78000,
+    "stage": "Qualified",
+    "probability": 40,
+    "expectedCloseDate": "2024-04-10",
+    "notes": "Demo scheduled for next week. Strong interest shown.",
+    "createdAt": "2024-01-18T16:20:00Z",
+    "updatedAt": "2024-02-05T13:30:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "Global Finance Compliance Suite",
+    "contactId": 4,
+    "value": 250000,
+    "stage": "Lead",
+    "probability": 20,
+    "expectedCloseDate": "2024-06-30",
+    "notes": "Initial contact made. Compliance requirements gathering phase.",
+    "createdAt": "2024-01-20T13:10:00Z",
+    "updatedAt": "2024-02-01T09:45:00Z"
+  },
+  {
+    "Id": 5,
+    "title": "RetailMax POS Integration",
+    "contactId": 5,
+    "value": 32000,
+    "stage": "Proposal",
+    "probability": 50,
+    "expectedCloseDate": "2024-03-20",
+    "notes": "Technical requirements defined. Proposal sent.",
+    "createdAt": "2024-01-22T10:35:00Z",
+    "updatedAt": "2024-02-07T15:25:00Z"
+  },
+  {
+    "Id": 6,
+    "title": "HealthTech HIPAA Solution",
+    "contactId": 6,
+    "value": 95000,
+    "stage": "Qualified",
+    "probability": 35,
+    "expectedCloseDate": "2024-05-15",
+    "notes": "HIPAA compliance review in progress. Security audit required.",
+    "createdAt": "2024-01-24T14:25:00Z",
+    "updatedAt": "2024-02-09T11:10:00Z"
+  },
+  {
+    "Id": 7,
+    "title": "Creative Studio Package",
+    "contactId": 7,
+    "value": 18000,
+    "stage": "Negotiation",
+    "probability": 80,
+    "expectedCloseDate": "2024-02-25",
+    "notes": "Pricing approved. Contract terms being finalized.",
+    "createdAt": "2024-01-26T09:15:00Z",
+    "updatedAt": "2024-02-11T16:40:00Z"
+  },
+  {
+    "Id": 8,
+    "title": "Manufacturing Operations Suite",
+    "contactId": 8,
+    "value": 67000,
+    "stage": "Lead",
+    "probability": 25,
+    "expectedCloseDate": "2024-07-01",
+    "notes": "Initial discovery call completed. Needs assessment ongoing.",
+    "createdAt": "2024-01-28T15:40:00Z",
+    "updatedAt": "2024-02-03T12:20:00Z"
+  },
+  {
+    "Id": 9,
+    "title": "TechCorp Additional Licenses",
+    "contactId": 1,
+    "value": 35000,
+    "stage": "Closed Won",
+    "probability": 100,
+    "expectedCloseDate": "2024-01-30",
+    "notes": "Expansion deal closed successfully. Implementation started.",
+    "createdAt": "2024-01-10T08:20:00Z",
+    "updatedAt": "2024-01-30T17:00:00Z"
+  },
+  {
+    "Id": 10,
+    "title": "InnovateTech Starter Package",
+    "contactId": 2,
+    "value": 12000,
+    "stage": "Closed Lost",
+    "probability": 0,
+    "expectedCloseDate": "2024-01-15",
+    "notes": "Lost to competitor. Price was the main factor.",
+    "createdAt": "2024-01-05T14:30:00Z",
+    "updatedAt": "2024-01-15T10:45:00Z"
+  }
+]

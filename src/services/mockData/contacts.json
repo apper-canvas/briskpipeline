@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 1,
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@techcorp.com",
+    "phone": "(555) 123-4567",
+    "company": "TechCorp Solutions",
+    "position": "VP of Sales",
+    "tags": ["Enterprise", "SaaS", "High Priority"],
+    "notes": "Interested in enterprise package. Follow up quarterly.",
+    "createdAt": "2024-01-15T09:30:00Z",
+    "updatedAt": "2024-01-20T14:15:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Michael Chen",
+    "email": "m.chen@innovatetech.co",
+    "phone": "(555) 234-5678",
+    "company": "InnovateTech",
+    "position": "CTO",
+    "tags": ["Tech", "Startup", "Developer"],
+    "notes": "Technical decision maker. Prefers API-first solutions.",
+    "createdAt": "2024-01-16T11:45:00Z",
+    "updatedAt": "2024-01-22T10:30:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Emily Rodriguez",
+    "email": "emily.r@marketingpro.com",
+    "phone": "(555) 345-6789",
+    "company": "MarketingPro Agency",
+    "position": "Marketing Director",
+    "tags": ["Marketing", "Agency", "Campaign"],
+    "notes": "Runs campaigns for multiple clients. Budget approved for Q2.",
+    "createdAt": "2024-01-18T16:20:00Z",
+    "updatedAt": "2024-01-25T09:45:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "David Kim",
+    "email": "david.kim@globalfinance.com",
+    "phone": "(555) 456-7890",
+    "company": "Global Finance Corp",
+    "position": "Head of Operations",
+    "tags": ["Finance", "Enterprise", "Compliance"],
+    "notes": "Requires SOC2 compliance. Long sales cycle expected.",
+    "createdAt": "2024-01-20T13:10:00Z",
+    "updatedAt": "2024-01-28T15:20:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Lisa Thompson",
+    "email": "lisa.thompson@retailmax.com",
+    "phone": "(555) 567-8901",
+    "company": "RetailMax",
+    "position": "IT Manager",
+    "tags": ["Retail", "Mid-Market", "Integration"],
+    "notes": "Looking to integrate with existing POS system.",
+    "createdAt": "2024-01-22T10:35:00Z",
+    "updatedAt": "2024-01-30T11:50:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "James Wilson",
+    "email": "j.wilson@healthtech.org",
+    "phone": "(555) 678-9012",
+    "company": "HealthTech Solutions",
+    "position": "CEO",
+    "tags": ["Healthcare", "Startup", "HIPAA"],
+    "notes": "Healthcare startup. HIPAA compliance is critical.",
+    "createdAt": "2024-01-24T14:25:00Z",
+    "updatedAt": "2024-02-01T16:30:00Z"
+  },
+  {
+    "Id": 7,
+    "name": "Amanda Foster",
+    "email": "amanda@creativestudio.design",
+    "phone": "(555) 789-0123",
+    "company": "Creative Studio",
+    "position": "Creative Director",
+    "tags": ["Design", "Creative", "SMB"],
+    "notes": "Small creative agency. Price sensitive but loyal customers.",
+    "createdAt": "2024-01-26T09:15:00Z",
+    "updatedAt": "2024-02-03T12:40:00Z"
+  },
+  {
+    "Id": 8,
+    "name": "Robert Martinez",
+    "email": "robert.martinez@manufacturing.com",
+    "phone": "(555) 890-1234",
+    "company": "Martinez Manufacturing",
+    "position": "Operations Director",
+    "tags": ["Manufacturing", "Industrial", "Legacy"],
+    "notes": "Traditional manufacturer. Needs simple, reliable solution.",
+    "createdAt": "2024-01-28T15:40:00Z",
+    "updatedAt": "2024-02-05T08:20:00Z"
+  }
+]

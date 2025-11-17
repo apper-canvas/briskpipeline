@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+@layer base {
+  html {
+    font-feature-settings: "cv11", "ss01";
+    font-variation-settings: "opsz" 32;
+  }
+  
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+.Toastify__toast-container {
+  top: 1rem;
+  right: 1rem;
+  width: 320px;
+}
+
+.Toastify__toast {
+  @apply rounded-xl shadow-xl border;
+  font-family: 'Inter', sans-serif;
+  min-height: 64px;
+}
+
+.Toastify__toast--success {
+  @apply bg-white border-success text-gray-900;
+}
+
+.Toastify__toast--error {
+  @apply bg-white border-error text-gray-900;
+}
+
+.Toastify__toast--info {
+  @apply bg-white border-info text-gray-900;
+}
+
+.Toastify__progress-bar--success {
+  @apply bg-success;
+}
+
+.Toastify__progress-bar--error {
+  @apply bg-error;
+}
+
+.Toastify__progress-bar--info {
+  @apply bg-info;
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-gray-300;
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* Drag and drop styles */
+.dragging {
+  @apply scale-105 rotate-2 shadow-2xl;
+  transition: all 0.15s ease-out;
+}
+
+.drag-over {
+  @apply bg-primary/5 border-primary border-2 border-dashed;
+}

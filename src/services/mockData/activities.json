@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 1,
+    "type": "call",
+    "contactId": 1,
+    "dealId": 1,
+    "description": "Discussed pricing structure and implementation timeline for enterprise license.",
+    "timestamp": "2024-02-10T14:20:00Z"
+  },
+  {
+    "Id": 2,
+    "type": "email",
+    "contactId": 2,
+    "dealId": 2,
+    "description": "Sent technical documentation and API specifications for review.",
+    "timestamp": "2024-02-08T10:15:00Z"
+  },
+  {
+    "Id": 3,
+    "type": "meeting",
+    "contactId": 3,
+    "dealId": 3,
+    "description": "Product demo scheduled for February 15th. All stakeholders confirmed attendance.",
+    "timestamp": "2024-02-05T13:30:00Z"
+  },
+  {
+    "Id": 4,
+    "type": "note",
+    "contactId": 4,
+    "dealId": 4,
+    "description": "Compliance requirements gathered. SOC2 Type II certification confirmed as mandatory.",
+    "timestamp": "2024-02-01T09:45:00Z"
+  },
+  {
+    "Id": 5,
+    "type": "email",
+    "contactId": 5,
+    "dealId": 5,
+    "description": "Sent detailed proposal with POS integration specifications and timeline.",
+    "timestamp": "2024-02-07T15:25:00Z"
+  },
+  {
+    "Id": 6,
+    "type": "call",
+    "contactId": 6,
+    "dealId": 6,
+    "description": "Initial discovery call. Discussed HIPAA requirements and security protocols.",
+    "timestamp": "2024-02-09T11:10:00Z"
+  },
+  {
+    "Id": 7,
+    "type": "meeting",
+    "contactId": 7,
+    "dealId": 7,
+    "description": "Contract review meeting. Terms agreed, waiting for final signature.",
+    "timestamp": "2024-02-11T16:40:00Z"
+  },
+  {
+    "Id": 8,
+    "type": "note",
+    "contactId": 8,
+    "dealId": 8,
+    "description": "Operations assessment completed. Identified key integration points with existing systems.",
+    "timestamp": "2024-02-03T12:20:00Z"
+  },
+  {
+    "Id": 9,
+    "type": "email",
+    "contactId": 1,
+    "dealId": 9,
+    "description": "Expansion deal confirmation sent. Implementation kickoff scheduled.",
+    "timestamp": "2024-01-30T17:00:00Z"
+  },
+  {
+    "Id": 10,
+    "type": "call",
+    "contactId": 2,
+    "dealId": 10,
+    "description": "Post-mortem call to understand loss reasons. Valuable feedback received for future deals.",
+    "timestamp": "2024-01-15T10:45:00Z"
+  },
+  {
+    "Id": 11,
+    "type": "meeting",
+    "contactId": 3,
+    "dealId": null,
+    "description": "Quarterly business review scheduled. Discussing expansion opportunities.",
+    "timestamp": "2024-02-12T09:00:00Z"
+  },
+  {
+    "Id": 12,
+    "type": "note",
+    "contactId": 1,
+    "dealId": null,
+    "description": "Contact promoted to VP of Sales. Updated contact information and decision-making authority.",
+    "timestamp": "2024-02-11T14:30:00Z"
+  }
+]
