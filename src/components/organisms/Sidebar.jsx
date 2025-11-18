@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { cn } from "@/utils/cn";
 import ApperIcon from "@/components/ApperIcon";
+import Pipeline from "@/components/pages/Pipeline";
 
 const Sidebar = ({ className, ...props }) => {
   const location = useLocation();
@@ -23,10 +24,15 @@ const Sidebar = ({ className, ...props }) => {
       href: "/pipeline", 
       icon: "Target"
     },
-    {
+{
       name: "Activity",
       href: "/activity",
       icon: "Activity"
+    },
+    {
+      name: "Settings",
+      href: "/settings",
+      icon: "Settings"
     }
   ];
 

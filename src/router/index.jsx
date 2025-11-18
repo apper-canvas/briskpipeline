@@ -7,7 +7,7 @@ const Contacts = lazy(() => import("@/components/pages/Contacts"));
 const Pipeline = lazy(() => import("@/components/pages/Pipeline"));
 const Activity = lazy(() => import("@/components/pages/Activity"));
 const NotFound = lazy(() => import("@/components/pages/NotFound"));
-
+const Settings = lazy(() => import("@/components/pages/Settings"));
 const LoadingFallback = () => (
   <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
     <div className="text-center space-y-4">
@@ -51,6 +51,14 @@ const mainRoutes = [
     element: (
       <Suspense fallback={<LoadingFallback />}>
         <Activity />
+      </Suspense>
+    )
+  },
+  {
+path: "settings",
+    element: (
+      <Suspense fallback={<LoadingFallback />}>
+        <Settings />
       </Suspense>
     )
   },
