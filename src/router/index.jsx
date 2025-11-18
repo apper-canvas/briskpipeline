@@ -1,13 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
-import { lazy, Suspense } from "react";
+import React, { Suspense } from "react";
+import Loading from "@/components/ui/Loading";
+import Dashboard from "@/components/pages/Dashboard";
+import Contacts from "@/components/pages/Contacts";
+import Activity from "@/components/pages/Activity";
+import NotFound from "@/components/pages/NotFound";
+import Pipeline from "@/components/pages/Pipeline";
 import Layout from "@/components/organisms/Layout";
-
-const Dashboard = lazy(() => import("@/components/pages/Dashboard"));
-const Contacts = lazy(() => import("@/components/pages/Contacts"));
-const Pipeline = lazy(() => import("@/components/pages/Pipeline"));
-const Activity = lazy(() => import("@/components/pages/Activity"));
-const NotFound = lazy(() => import("@/components/pages/NotFound"));
-const Settings = lazy(() => import("@/components/pages/Settings"));
 const LoadingFallback = () => (
   <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
     <div className="text-center space-y-4">
@@ -53,15 +52,7 @@ const mainRoutes = [
         <Activity />
       </Suspense>
     )
-  },
-  {
-path: "settings",
-    element: (
-      <Suspense fallback={<LoadingFallback />}>
-        <Settings />
-      </Suspense>
-    )
-  },
+},
   {
     path: "*",
     element: (
